@@ -1,5 +1,4 @@
 class Artist
-<<<<<<< HEAD
   
   attr_accessor :name, :songs
   
@@ -35,17 +34,4 @@ class Artist
   def print_songs
     @songs.each {|s| puts s.name}
   end
-=======
-
-  attr_accessor :name, :songs
-  
-  @@all = [] 
-  
-  def initialize(name)
-    @name = name 
-    @songs = []
-  end
-  
-  
->>>>>>> 98fd0f7fc924da6d5b8ef58e7b6a8e8454f9fd83
 end
